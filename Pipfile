@@ -5,11 +5,11 @@ verify_ssl = true
 
 [dev-packages]
 black = "*"
+mypy = "*"
 
 [packages]
 gunicorn = "*"
 flask = "*"
-pymongo = "*"
 dnspython = "*"
 bson = "*"
 
