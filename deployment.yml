@@ -17,9 +17,9 @@ spec:
     spec:
       containers:
         - name: ramhacks2019
-          image: gcr.io/kumparan-data-staging/flask-app:v1
+          image: gcr.io/hotwheels-254409/hot-wheels:v1
           ports:
-            - containerPort: 8080
+            - containerPort: 8000
           resources:
             requests:
               memory: 256Mi
