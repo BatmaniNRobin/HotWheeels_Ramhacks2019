@@ -11,12 +11,7 @@ from bson.objectid import ObjectId
 app = Flask(__name__)
 
 client = pymongo.MongoClient('mongodb+srv://admin:ramHacks2019@hotwheels-gmjn8.gcp.mongodb.net/test')
-# password = "ramHacks2019"
-# print(client.Whips.HotWheels.count())
-# print(dumps(client.Whips.HotWheels.find()))
-
 db = client.Whips
-
 collection = db.HotWheels
 # a = db.collection.find({}, {_id:1}.map(function(item):return item._id; })
 
